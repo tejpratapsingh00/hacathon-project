@@ -1,0 +1,462 @@
+ 
+ 
+  1  
+A  
+Synopsis on  
+MentorIQ – Smart Mentorship Platform 
+in partial fulfilment of the requirement for the degree of  
+Bachelor of Technology In  
+  
+COMPUTER SCIENCE AND ENGINEERING  
+  
+Submitted by  
+  
+Vaibhav Panchal   (2401330100397)  
+Nikhil                     (0251dcs453)  
+Vrinda Bhatia       (2401330100421) 
+Vikas Gupta          (2401330100408) 
+ 
+Under the Supervision of 
+Dr. Megha Gupta 
+(Assistant Professor, CSE) 
+  
+ 
+  
+NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY  
+GREATER NOIDA  
+ 
+ 
+
+ 
+ 
+  2  
+Index  
+  
+Sr. No.  Topics  Page No.  
+1  Introduction  3  
+2  Existing Systems  4 
+3  Problem Statement   5 
+4  Proposed Methodology  6 
+5  Feasibility Study  12 
+6  Facilities Required for Proposed Work  13 
+7  Conclusion  14 
+8  References  15 
+  
+  
+  
+  
+Supervisor Sign:    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  3  
+1. Introduction  
+Mentorship plays a vital role in guiding students in their academic and professional journey, especially 
+in the field of technology where multiple domains and learning paths are available. Choosing the right 
+direction and maintaining consistency in learnin g is often challenging for students due to the lack of 
+structured guidance and mentorship support. 
+In recent years, online learning platforms have gained popularity by providing access to a wide range 
+of educational resources. However, most of these platforms primarily focus on content delivery rather 
+than offering structured mentorship and personalized  guidance. As a result, learners often face 
+difficulties in selecting appropriate learning paths, tracking their progress, and staying consistent in 
+their learning activities. 
+Existing systems lack integration between mentorship, structured learning, and productivity tracking. 
+Students usually rely on multiple platforms for different purposes such as learning resources, mentor 
+guidance, and progress tracking, which leads to inef ficiency and confusion. Studies have shown that 
+structured learning environments and guided mentorship significantly improve user engagement and 
+learning outcomes [1]. 
+To address these challenges, the proposed system, MentorIQ – Smart Mentorship and Learning 
+Guidance Platform, is developed as a web-based application that integrates mentorship exploration, 
+structured learning paths, and productivity tools into a single platform. The system allows users to 
+explore mentors across different technical domains such as Frontend Devel opment, Backend 
+Development, Data Structures and Algorithms (DSA), and System Design. 
+The platform provides a clean and user -friendly interface with features such as sidebar navigation, 
+search functionality, categorized learning sections, and daily goal tracking. These features help users 
+organize their learning process, monitor their progress, and improve consistency. 
+ 
+The system is developed using modern web technologies such as React.js and TypeScript, following 
+a component-based architecture that ensures scalability, maintainability, and efficient performance. 
+The use of tools like Vite enables faster development and optimized application performance. 
+Overall, MentorIQ provides a simple, efficient, and scalable solution to the problem of unstructured 
+learning by combining mentorship and productivity features into a unified system. It enhances user 
+experience and promotes consistent and goal-oriented learning. 
+   
+ 
+ 
+  4  
+2. Existing Systems  
+Various online learning and mentorship platforms are available to help students learn new skills 
+and connect with mentors. These systems provide different functionalities such as content delivery, 
+communication, and progress tracking. However, each of these systems has certain limitations. 
+The most common type is content-based learning platforms , such as online course websites, 
+which provide video lectures and tutorials. These platforms are useful for gaining knowledge but 
+lack personalized mentorship and structured guidance. Users often struggle to decide what to learn 
+next. 
+Another type is mentorship platforms, where users can connect with mentors through chat or 
+sessions. While these platforms enable interaction, they usually lack structured learning paths and 
+proper progress tracking mechanisms. 
+Some platforms provide goal tracking or productivity tools , allowing users to monitor their 
+progress. However, these systems are often separate from learning platforms and do not integrate 
+mentorship features. 
+Additionally, community-based platforms  such as forums and discussion groups help users 
+interact and share knowledge. However, they are unstructured and do not provide guided learning 
+or personalized mentorship. 
+S.No. System Type Description Advantages Limitations 
+1. Content-Based 
+Platforms 
+Provide online courses, 
+tutorials, and learning 
+materials 
+Easy access to a wide 
+range of content 
+Lack mentorship 
+and structured 
+guidance 
+2. Mentorship 
+Platforms 
+Connect users with 
+mentors through chat or 
+sessions 
+Personalized 
+guidance and 
+interaction 
+No structured 
+learning paths or 
+progress tracking 
+3. Goal Tracking 
+Systems 
+Help users track 
+learning progress and 
+daily goals 
+Improves 
+productivity and 
+consistency 
+Not integrated 
+with mentorship 
+or learning content 
+4. Community 
+Platforms 
+Provide discussion 
+forums and peer 
+interaction 
+Knowledge sharing 
+and collaboration 
+Unstructured and 
+lacks guided 
+learning 
+  
+Gap in Existing Systems 
+Most existing systems focus only on one aspect—either content, mentorship, or tracking. There is no 
+single platform that integrates all these features into a unified system. This creates confusion and 
+reduces learning efficiency. 
+ 
+ 
+  5  
+3. Problem Statement  
+  
+In the modern digital era, students and learners have access to a vast amount of online resources across 
+multiple technical domains such as web development, data structures, and system design. While this 
+availability of content has made learning more accessible, it has also created significant confusion among 
+learners regarding what to learn, how to learn, and in what sequence. The absence of structured guidance 
+often leads to inefficient learning and lack of direction. 
+One of the major challenges faced by students is the lack of proper mentorship. Although mentorship 
+platforms exist, they are often limited to basic communication features such as chat or session -based 
+interaction. These platforms do not provide structured  learning paths or integrated tools to guide users 
+throughout their learning journey. As a result, learners are unable to effectively utilize mentorship for 
+long-term skill development. 
+Another important issue is the fragmentation of learning tools. Students typically use different platforms 
+for different purposes, such as one platform for courses, another for mentorship, and another for tracking 
+progress. This scattered approach makes the learning process unorganized and difficult to manage. It also 
+reduces productivity, as users spend more time switching between platforms rather than focusing on 
+learning. 
+In addition, many existing systems lack effective progress tracking mechanisms. Without proper tracking, 
+users are unable to monitor their daily goals, measure their improvement, or maintain consistency. This 
+often results in irregular learning habits and reduced motivation over time. 
+User experience is also a critical factor. Many platforms have complex interfaces or lack intuitive 
+navigation, making it difficult for users to explore available features such as mentors, learning categories, 
+or resources. A poorly designed interface can negatively impact user engagement and overall system 
+usability. 
+Furthermore, there is no single platform that effectively combines mentorship, structured learning paths, 
+and productivity tools into a unified system. This gap highlights the need for a solution that integrates 
+these essential components while maintaining simplicity and usability. 
+Therefore, there is a need to develop a system that provides: 
+• Structured learning guidance across different technical domains  
+• Easy exploration of mentors and learning resources  
+• Integrated tools for tracking daily progress and improving consistency  
+• A clean, user-friendly, and responsive interface  
+The proposed system, MentorIQ – Smart Mentorship and Learning Guidance Platform , aims to 
+address these challenges by providing a unified web-based solution. It integrates mentorship exploration, 
+categorized learning paths, and goal tracking features into a single platform, thereby improving learning 
+efficiency, user engagement, and overall productivity. 
+  
+ 
+ 
+  6  
+4. Proposed Methodology  
+The proposed system, MentorIQ – Smart Mentorship and Learning Guidance Platform , is 
+designed to provide a structured and user -friendly environment for mentorship and guided 
+learning. The system follows a modular and component -based approach to ensure scalability, 
+maintainability, and efficient performance. 
+The methodology focuses on simplifying the learning process by integrating mentorship 
+exploration, categorized learning paths, and productivity tools into a single web -based platform. 
+The system is implemented using modern frontend technologies such as Rea ct.js and TypeScript, 
+and it operates through dynamic user interaction and UI rendering. 
+ 
+4.1 System Overview  
+The proposed system, MentorIQ – Smart Mentorship and Learning Guidance Platform , is 
+designed to provide a structured and user -friendly environment for mentorship and guided learning. 
+The system follows a modular and component -based approach to ensure scalability, maintainability, 
+and efficient performance. 
+The methodology focuses on simplifying the learning process by integrating mentorship exploration, 
+categorized learning paths, and productivity tools into a single web -based platform. The system is 
+implemented using modern frontend technologies such as Rea ct.js and TypeScript, and it operates 
+through dynamic user interaction and UI rendering. 
+ 
+4.2 Module Details  
+    The system is divided into the following main modules: 
+ 
+Module 1 – USER INTERFACE MODULE 
+This module is responsible for providing a clean, responsive, and user -friendly interface. It includes 
+the overall layout of the application, such as the sidebar, dashboard, and content sections. The module 
+ensures smooth navigation and easy accessibility of features. 
+ 
+Module 2 – NA VIGATION MODULE  
+This module manages the movement between different sections of the application. It includes the 
+sidebar and routing functionality, allowing users to switch between pages such as Home, Explore 
+Mentors, and Code Sessions. 
+ 
+     Module 3 – MENTOR EXPLORATION MODULE  
+This module allows users to explore different mentors based on their domain expertise. Mentors are 
+displayed in a structured format using cards, which include details such as domain, skills, and 
+specialization. This helps users easily identify relevant mentors. 
+ 
+ 
+ 
+  7  
+Module 4 – LEARNING CATEGORIES MODULE  
+This module displays various technical domains such as Frontend, Backend, Data Structures and 
+Algorithms (DSA), and System Design. It helps users choose structured learning paths based on their 
+interests. 
+  
+    Module 5 – SEARCH MODULE  
+This module provides search functionality to quickly find mentors or learning domains. It improves 
+usability by allowing users to access specific content without navigating through multiple sections. 
+ 
+Module 6 – GOAL TRACKING MODULE 
+This module enables users to track their daily learning goals. It helps improve consistency and 
+productivity by allowing users to monitor their progress regularly. 
+ 
+Module 7 – COMPONENT MANAGEMENT MODULE 
+This module handles the internal structure of the application using React components. Each UI element 
+such as sidebar, header, mentor cards, and dashboard is implemented as a separate component, 
+improving code reusability and maintainability. 
+ 
+  
+4.3 Use Case Diagram  
+     
+
+ 
+ 
+  8  
+4.4 Data Flow Diagram (DFD)  
+The system follows a simple data flow since it is a frontend-based application: 
+Input: User actions (clicks, search queries, navigation)  
+Process: React components process user interactions and update the UI Output: Updated interface 
+displaying mentors, categories, or progress 
+ 
+  
+ 
+4.5 System Flowchart  
+The system flow begins when the user opens the application in a web browser. The homepage is 
+displayed with navigation options and dashboard content. 
+The user can: 
+• Navigate through different sections  
+• Search for mentors or domains  
+• Explore learning categories  
+• Track daily goals  
+Based on user interaction, the system dynamically updates the interface using React 
+rendering. 
+ 
+
+ 
+ 
+  9  
+  
+  
+ 
+ 
+ 
+ 
+
+ 
+ 
+  10  
+4.6 ER Diagram 
+The main entities in the system include:  
+User 
+ • user_id 
+ • name  
+• email  
+• role (mentor/learner)  
+Mentorship 
+• mentorship_id  
+• mentor_id 
+• learner_id 
+    • status  
+• start_date  
+Session  
+• session_id 
+• session_date  
+Task / Milestone 
+ • task_id 
+ • title  
+• status  
+• deadline 
+ Performance Metrics 
+ • metric_id 
+ • response_time  
+• completion_rate 
+ • engagement_score 
+ 
+Relationships: 
+• A User can participate in multiple mentorships 
+• A Mentorship includes multiple sessions 
+• A Mentorship contains multiple tasks or milestones  
+• Mentorship data is used to generate performance metrics  
+ 
+ 
+ 
+  11  
+ 
+  
+
+ 
+ 
+  12  
+5. Feasibility Study  
+5.1 Technical Feasibility  
+The proposed system is technically feasible as it is developed using modern web technologies such as 
+React.js, TypeScript, HTML, and CSS. These tools are widely available and easy to implement. The 
+system runs on standard web browsers and does not require any special hardware, making 
+development and deployment simple.  
+ 
+5.2 Operational Feasibility  
+The system is user -friendly and easy to operate. Users can navigate through different sections like 
+mentor exploration, learning categories, and goal tracking using a simple interface. No special training 
+is required, making it suitable for students and learners. 
+  
+5.3 Economic Feasibility  
+The system is cost-effective as it uses open-source technologies. No additional hardware or expensive 
+software is required. Development and deployment can be done using existing resources, resulting in 
+low overall cost. 
+  
+5.4 Significance and Need  
+The need for the MentorIQ platform arises from the challenges faced by students in managing their 
+learning process due to the lack of structured guidance and mentorship. 
+The system provides a unified platform that integrates mentorship exploration, structured learning 
+paths, and productivity tools. It helps users: 
+• Choose the right learning path  
+• Explore mentors easily  
+• Track their daily progress  
+• Maintain consistency in learning  
+By addressing the limitations of existing systems, MentorIQ improves learning efficiency, user 
+engagement, and overall productivity. 
+The system also supports the digital transformation of learning by providing a modern, web -based 
+solution that is scalable and easy to use. In the future, it can be enhanced with backend integration, 
+user authentication, and advanced features such as personalized recommendations. 
+   
+ 
+ 
+  13  
+6. Facilities Required for Proposed Work  
+  
+6.1 Hardware Requirements  
+  
+Component  Minimum Specification  
+Processor  Intel Core i3 / AMD Ryzen 3 or above  
+RAM  4 GB (8 GB recommended)  
+Storage  256 GB HDD/ SSD  
+Internet Connection  Required for development and running the 
+application 
+  
+6.2 Software Requirements  
+  
+Software/Tools Purpose Version 
+React.js Frontend development Latest 
+TypeScript Type-safe programming Latest 
+HTML, CSS UI design Latest 
+Vite Development and build tool Latest 
+Node.js Runtime environment Latest 
+Npm Package management Latest 
+Visual Studio Code Code editor Latest 
+Git & GitHub Version control Latest 
+Web Browser 
+(Chrome/Edge) 
+Version control Latest 
+ 
+ 
+ 
+  14  
+ 
+7. Conclusion  
+  
+The MentorIQ – Smart Mentorship and Learning Guidance Platform  provides an effective 
+solution to the problem of unstructured learning and lack of proper mentorship. It combines mentor 
+exploration, learning categories, and goal tracking into a single platform. 
+The system is developed using modern web technologies such as React.js and TypeScript, ensuring 
+good performance and easy implementation. It provides a simple and user -friendly interface that 
+allows users to easily navigate through different sections and access relevant information. 
+The platform helps users improve learning consistency and efficiency by providing structured 
+guidance and progress tracking. It reduces confusion caused by scattered resources and makes the 
+learning process more organized. 
+Overall, the system is a useful and scalable web application. In the future, it can be enhanced by adding 
+features such as backend integration, user authentication, and advanced functionalities. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  15  
+ 
+8. References 
+ 
+[1] T. H. Davenport, Big Data at Work: Dispelling the Myths, Uncovering the Opportunities, 
+Harvard Business Review Press, 2014. 
+[2] M. Fowler, Patterns of Enterprise Application Architecture, Addison-Wesley, 2002. 
+[3] React Documentation, “React Official Documentation,” Available: https://react.dev/ (Accessed: 
+2026). 
+[4] TypeScript Documentation, “TypeScript Official Documentation,” Available: 
+https://www.typescriptlang.org/ (Accessed: 2026). 
+[5] Vite Documentation, “Vite – Next Generation Frontend Tooling,” Available: https://vitejs.dev/ 
+(Accessed: 2026). 
+[6] Node.js Foundation, “Node.js Documentation,” Available: https://nodejs.org/ (Accessed: 2026). 
+[7] GitHub, “GitHub Documentation: Version Control and Collaboration,” Available: 
+https://docs.github.com/ (Accessed: 2026). 
+  
